@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/display"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    android:orientation="vertical"
+    android:scrollbarSize="20dp"
+    tools:context=".input_user_item_list">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:srcCompat="@drawable/ok" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="366dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/ultra"
+        android:text="Enter The Items in the list"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:hint="Enter your Item inThe list"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHighlight="@android:color/darker_gray"
+        android:textColorHint="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Press for Back"
+        app:backgroundTint="#EA5A92"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+</LinearLayout>

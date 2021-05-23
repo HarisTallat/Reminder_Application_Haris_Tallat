@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="350dp"
+        android:layout_height="166dp"
+        app:srcCompat="@drawable/ok" />
+
+    <EditText
+        android:id="@+id/txtinput"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_shape"
+        android:drawableLeft="@drawable/ic_baseline_format_list_numbered_rtl_24"
+        android:gravity="center"
+        android:hint="Enter List  Name" />
+
+    <Button
+        android:id="@+id/btok"
+        android:layout_width="304dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:text="ok"
+        app:backgroundTint="#EA5A92" />
+
+
+</LinearLayout>
